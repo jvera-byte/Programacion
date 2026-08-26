@@ -1,0 +1,41 @@
+#body{
+    background-color: black;
+}
+#titulo{
+    color: cornflowerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#subtitulo{
+    color: white;
+}
+
+#juego{
+    color: yellow;
+}
+#letras{
+    color: white;
+}
+#caracteristicas{
+    color: yellow;
+}
+
+#bullets{
+    color: white;
+}
+#plataformas{
+    color: yellow;
+}
+
+#mario{
+    width: 80px;
+    height: 120px;
+}
+#table{
+    background-color: grey;
+    width: 30%;
+    height: 30%;
+    color: white;
+}
+#first{
+    text-align: center;
+}

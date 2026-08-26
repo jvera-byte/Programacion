@@ -1,0 +1,10 @@
+td{
+    border: 2px dotted red;
+    width: 512px;
+    height: 512px;
+    background-image: url('./assets/flecha.png');
+}
+
+#vertical{
+    background-repeat: repeat-y;
+}

@@ -1,0 +1,31 @@
+h1{
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 100vw;
+}
+
+h2{
+    color: green;
+}
+
+img{
+    width: 256px;
+    height: 200px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.fila-ancha{
+    width: 270px;
+}
+
+#font-blue{
+    color: blue;
+}
+
+#informacion{
+    background-color: lightyellow;
+}
