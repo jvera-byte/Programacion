@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="DJs del bar: información sobre estilos, horarios y formatos de los artistas que tocan en el local.">
+    <meta name="keywords" content="bar, DJs, música, minimal house, tech house, afro house, club, eventos, horarios">
+    <meta name="author" content="Santiago Giomprini">
+
+    <title>DJs del Bar</title>
+
+    <!-- Bootstrap 6 Alpha 1: CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+</head>
+
+<body class="text-dark">
+
+    <header>
+        <nav class="navbar sm:navbar-expand bg-1 fg-2">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="./2index.html">
+                    ¿Quiénes somos?
+                </a>
+
+                <button
+                    class="btn-icon navbar-toggler"
+                    type="button"
+                    data-bs-toggle="drawer"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Abrir menú de navegación"
+                >
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+
+                <dialog
+                    class="drawer drawer-end"
+                    tabindex="-1"
+                    id="navbarNav"
+                    aria-labelledby="navbarNavLabel"
+                >
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarNavLabel">
+                            Menú de navegación
+                        </h5>
+
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="drawer"
+                            aria-label="Cerrar"
+                        ></button>
+                    </div>
+
+                    <div class="drawer-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./2index.html">
+                                    Próximos eventos
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./bebida facts.html">
+                                    Bebidas
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./comida facts.html">
+                                    Comidas
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./rock.html">
+                                    Música
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active"
+                                   aria-current="page"
+                                   href="./DJ.html">
+                                    Nuestros DJs
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </dialog>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4">
+
+        <div class="bg-danger text-black text-center p-2 fw-bold text-uppercase fs-4 rounded">
+            DJs del bar
+        </div>
+
+        <p class="mt-4 mb-3">
+            En nuestro bar existen diferentes estilos de DJs.
+            Algunos pasan minimal house, otros afro house y tech house.
+        </p>
+
+        <hr class="text-secondary my-4">
+
+        <h2 class="text-danger fs-5 mt-4 mb-3">
+            Conocé algunos DJs
+        </h2>
+
+        <div class="row g-3 text-center">
+
+            <div class="col-12 col-md-4">
+                <div class="card shadow-sm py-2 bg-light">
+                    <p class="mb-0 fw-semibold">DJ Giomprini</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card shadow-sm py-2 bg-light">
+                    <p class="mb-0 fw-semibold">DJ Joaco</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="card shadow-sm py-2 bg-light">
+                    <p class="mb-0 fw-semibold">DJ Mateo</p>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="text-danger fs-5 mt-5 mb-3">
+            ¿Dónde tocan?
+        </h2>
+
+        <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-item bg-transparent">
+                DJ Giomprini toca los viernes.
+            </li>
+            <li class="list-group-item bg-transparent">
+                DJ Joaco toca los sábados a la noche.
+            </li>
+            <li class="list-group-item bg-transparent">
+                DJ Mateo toca los domingos.
+            </li>
+        </ul>
+
+        <h2 class="text-danger fs-5 mt-4 mb-3">
+            Información
+        </h2>
+
+        <div class="table-responsive" style="max-width: 500px;">
+            <table class="table table-warning table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">DJ</th>
+                        <th scope="col">Estilo</th>
+                        <th scope="col">Formato</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>DJ Giomprini</td>
+                        <td>Minimal house</td>
+                        <td>Vinilos</td>
+                    </tr>
+                    <tr>
+                        <td>DJ Joaco</td>
+                        <td>Tech house</td>
+                        <td>CDJ 3000</td>
+                    </tr>
+                    <tr>
+                        <td>DJ Mateo</td>
+                        <td>Afro house</td>
+                        <td>CDJ 3000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 class="text-danger fs-5 mt-5 mb-2">
+            Lo mejor de la semana
+        </h2>
+
+        <div class="alert alert-dark" role="alert">
+            Giomprini, Joaco y Mateo haciendo
+            <strong>B2B2B</strong> una vez por mes.
+        </div>
+
+    </main>
+
+    <!-- Bootstrap 6: JavaScript como módulo ES -->
+    <script
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+</body>
+</html>
